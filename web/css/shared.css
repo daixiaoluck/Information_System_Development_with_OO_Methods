@@ -1,0 +1,16 @@
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.custom-date{
+    background-image:url("/image/datePicker.gif");
+    background-repeat: no-repeat;
+    background-position:center right;
+    background-size:contain;
+    background-origin: content-box;
+}
+.custom-date[readonly]{
+    background-color: white;
+}
+.navbar.result{
+    margin-bottom: 10%;
+}

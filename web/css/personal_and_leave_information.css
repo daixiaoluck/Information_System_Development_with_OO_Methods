@@ -1,0 +1,6 @@
+.navbar .badge-light.position-relative{
+    top: -1.5px;
+}
+[data-toggle]{
+    cursor: pointer;
+}
