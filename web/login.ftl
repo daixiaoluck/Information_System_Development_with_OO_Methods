@@ -1,6 +1,4 @@
-<#if !data_from_database??>
-    <#include "/mock_data/mock_freemarker_data.ftl">
-</#if>
+<#include "/included_ftl/mock_data.ftl">
 <!doctype html>
 <html>
 <head>
@@ -8,7 +6,7 @@
     <link rel="stylesheet" href="/css/login.css">
 </head>
 <body class="d-flex h-100 justify-content-center align-items-center">
-    <form action="${errormssg}" method="post" class="container-fluid w-50">
+    <form action="${request_url["login"]}" method="post" class="container-fluid w-50">
         <div class="row justify-content-center no-gutters">
             <div class="col-4">
                 <img src="/image/Doraemon.png" width="100%">
@@ -31,7 +29,7 @@
         </div>
         <div class="row justify-content-center no-gutters">
             <p class="lead text-danger col-4 offset-2">
-            ${errormssg}
+                <#if errorMsg??>${errorMsg}</#if>
             </p>
         </div>
         <div class="row justify-content-center no-gutters">

@@ -1,6 +1,4 @@
-<#if !data_from_database??>
-    <#include "/mock_data/mock_freemarker_data.ftl">
-</#if>
+<#include "/included_ftl/mock_data.ftl">
 <!doctype html>
 <html>
 <head>
