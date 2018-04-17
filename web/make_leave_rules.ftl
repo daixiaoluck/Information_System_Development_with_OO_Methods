@@ -42,22 +42,22 @@
 
             <div class="col col-form-label text-center">Junior</div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Annual1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual1">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Annual1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddAnnual1">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Sick1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialSick1">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Sick1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddSick1">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Nopaid1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialNopaid1">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Others1">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialOthers1">
             </div>
 
         </div>
@@ -66,22 +66,22 @@
 
             <div class="col col-form-label text-center">Senior</div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Annual2" value="${test.key}">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual2" value="${test.key}">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Annual2">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddAnnual2">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Sick2">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialSick2">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Sick2">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddSick2">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Nopaid2">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialNopaid2">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Others2">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialOthers2">
             </div>
 
         </div>
@@ -90,22 +90,22 @@
 
             <div class="col col-form-label text-center">Manager</div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Annual3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual3">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Annual3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddAnnual3">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Sick3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialSick3">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Add_Sick3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="AddSick3">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Nopaid3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialNopaid3">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_Others3">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialOthers3">
             </div>
 
         </div>
@@ -114,22 +114,22 @@
 
             <div class="col col-form-label text-center">Maximum</div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_AnnualM">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnualM">
             </div>
             <div class="col">
 
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_SickM">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialSickM">
             </div>
             <div class="col">
 
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_NopaidM">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialNopaidM">
             </div>
             <div class="col">
-                <input type="number" class="form-control w-50 mx-auto text-center" name="Initial_OthersM">
+                <input type="number" class="form-control w-50 mx-auto text-center" name="InitialOthersM">
             </div>
 
         </div>
