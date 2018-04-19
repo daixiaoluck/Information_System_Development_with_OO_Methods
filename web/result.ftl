@@ -24,7 +24,11 @@
 
         <div class="row justify-content-md-center">
             <div class="col-auto">
-                <a href="${request_url["return_main"]}">Return to the main page.</a>
+                <form method="post">
+                    <input type="hidden" name="MyUsername" value="${MyUsername}">
+                    <input type="hidden" name="MyPassword" value="${MyPassword}">
+                    <button type="submit" class="btn btn-primary">Return to the main page.</button>
+                </form>
             </div>
         </div>
     </div>

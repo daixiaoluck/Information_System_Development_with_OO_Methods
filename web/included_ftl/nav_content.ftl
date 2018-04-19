@@ -10,6 +10,11 @@
                 <span class="badge badge-light position-relative">2</span>
             </div>
         </li>
+        <#if Role?? && Role == "HR">
+        <li class="nav-item">
+            <a href="#" class="nav-link text-white">Rules</a>
+        </li>
+        </#if>
         <li class="nav-item">
             <a href="#" class="nav-link text-white">sign out</a>
         </li>

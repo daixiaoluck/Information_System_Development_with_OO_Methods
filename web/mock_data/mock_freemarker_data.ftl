@@ -32,4 +32,4 @@
 <#assign NopaidLeave = 0>
 <#assign OthersLeave = 0>
 <#assign MyUsername = "Baron">
-<#--<#assign errorMsg = "错误信息">-->
+<#assign MyPassword = "FengLe">

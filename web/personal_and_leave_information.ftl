@@ -197,6 +197,7 @@
                     <td>
                         <form method="post">
                             <input type="hidden" name="RecordNo" value="${item[4]}">
+                            <input type="hidden" name="Username" value="${MyUsername}">
                             <button type="submit" name="ApplyResult" value="Approval" class="btn btn-success">Approval</button>
                             <button type="submit" name="ApplyResult" value="Reject" class="btn btn-danger">Reject</button>
                         </form>
