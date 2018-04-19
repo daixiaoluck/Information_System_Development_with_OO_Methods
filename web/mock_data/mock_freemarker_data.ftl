@@ -1,6 +1,9 @@
 <#assign request_url = {
-    "login":"/personal_and_leave_information.ftl"
+    "login":"/personal_and_leave_information.ftl",
+    "return_main":"/personal_and_leave_information.ftl"
 }>
+<#assign Successornot = "N">
+<#assign Message = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas quod sit sequi debitis, accusamus corporis, vero eligendi ducimus molestiae! Vel nam laborum, rem aperiam? Vitae labore provident reprehenderit tempora quod.">
 <#assign Myinfo = [
     ["Annual","2018-3-27","Approval"],
     ["Annual","2018-3-28","Approval"],
@@ -28,5 +31,5 @@
 <#assign CompensationLeave = 2>
 <#assign NopaidLeave = 0>
 <#assign OthersLeave = 0>
-<#assign MyUsername = "假名字">
+<#assign MyUsername = "Baron">
 <#--<#assign errorMsg = "错误信息">-->

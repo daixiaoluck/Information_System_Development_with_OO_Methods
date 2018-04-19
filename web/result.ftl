@@ -6,32 +6,30 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary justify-content-between result">
-        <span class="navbar-brand">Doraemon Co. Ltd.</span>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <div class="nav-link text-white">Baron</div>
-            </li>
-            <li class="nav-item">
-                <div class="nav-link text-white" data-toggle="modal" data-target="#notification_modal">
-                    <span>notifications</span>
-                    <span class="badge badge-light position-relative">2</span>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link text-white">sign out</a>
-            </li>
-        </ul>
-    </nav>
+    <#include "/included_ftl/nav_content.ftl">
 
     <div class="w-50 mx-auto container">
-        <div class="row">
-            <img class="col-2" src="/image/success.svg">
+        <div class="row mb-5">
+            <div class="col-2">
+                <#if Successornot == "Y">
+                    <img src="/image/success.svg">
+                <#else>
+                    <img src="/image/cancel.svg">
+                </#if>
+            </div>
             <div class="col-10 align-self-center">
-                <span class="h3">Your application has been submitted.Please wait for manager's decision.</span>
+                <span class="h3">${Message}</span>
+            </div>
+        </div>
+
+        <div class="row justify-content-md-center">
+            <div class="col-auto">
+                <a href="${request_url["return_main"]}">Return to the main page.</a>
             </div>
         </div>
     </div>
+
+    <#include "/included_ftl/notification_modal_content.ftl">
 
 </body>
 </html>

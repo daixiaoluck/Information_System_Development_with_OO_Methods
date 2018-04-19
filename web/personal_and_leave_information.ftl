@@ -7,23 +7,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary justify-content-between">
-        <span class="navbar-brand">Doraemon Co. Ltd.</span>
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <div class="nav-link text-white">${MyUsername}</div>
-            </li>
-            <li class="nav-item">
-                <div class="nav-link text-white" data-toggle="modal" data-target="#notification_modal">
-                    <span>notifications</span>
-                    <span class="badge badge-light position-relative">2</span>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link text-white">sign out</a>
-            </li>
-        </ul>
-    </nav>
+    <#include "/included_ftl/nav_content.ftl">
 
     <h1>My Part</h1>
     <h3>My Personal Information</h3>
@@ -225,26 +209,6 @@
 
     </#if>
 
-    <div class="modal fade" id="notification_modal" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Notifications</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <ul class="modal-body list-unstyled">
-                    <li>Tai So Yu apply for an annual leave.</li>
-                    <li>Tai So Yu apply for a compensation leave.</li>
-                </ul>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="modal fade" id="leave_modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -277,6 +241,8 @@
             </div>
         </div>
     </div>
+
+    <#include "/included_ftl/notification_modal_content.ftl">
 
     <script src="/js/My97DatePicker/WdatePicker.js"></script>
     <script src="/js/personal_and_leave_information.js"></script>
