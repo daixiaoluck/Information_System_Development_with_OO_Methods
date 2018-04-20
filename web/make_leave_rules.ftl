@@ -24,7 +24,7 @@
 
         <div class="form-row mb-3">
 
-            <div class="col col-form-label text-center">Junior</div>
+            <div class="col col-form-label text-center">1</div>
             <div class="col">
                 <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual1" value="${InitialAnnual1}">
             </div>
@@ -48,7 +48,7 @@
 
         <div class="form-row mb-3">
 
-            <div class="col col-form-label text-center">Senior</div>
+            <div class="col col-form-label text-center">2</div>
             <div class="col">
                 <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual2" value="${InitialAnnual2}">
             </div>
@@ -72,7 +72,7 @@
 
         <div class="form-row mb-3">
 
-            <div class="col col-form-label text-center">Manager</div>
+            <div class="col col-form-label text-center">3</div>
             <div class="col">
                 <input type="number" class="form-control w-50 mx-auto text-center" name="InitialAnnual3" value="${InitialAnnual3}">
             </div>

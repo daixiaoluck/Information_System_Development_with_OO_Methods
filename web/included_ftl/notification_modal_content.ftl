@@ -8,8 +8,9 @@
                 </button>
             </div>
             <ul class="modal-body list-unstyled">
-                <li>Tai So Yu apply for an annual leave.</li>
-                <li>Tai So Yu apply for a compensation leave.</li>
+                <#list NotificationsList as item>
+                    <li>${item}</li>
+                </#list>
             </ul>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>

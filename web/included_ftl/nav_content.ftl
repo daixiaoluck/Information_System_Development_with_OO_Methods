@@ -7,7 +7,7 @@
         <li class="nav-item">
             <div class="nav-link text-white" data-toggle="modal" data-target="#notification_modal">
                 <span>notifications</span>
-                <span class="badge badge-light position-relative">2</span>
+                <span class="badge badge-light position-relative">${NotificationsNum}</span>
             </div>
         </li>
         <#if Role?? && Role == "HR">
